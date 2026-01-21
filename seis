@@ -1,16 +1,16 @@
 public class seis{
-public static void main(String[]args){
+  public static void main(String[]args){
 
-  int mate = 5;
-  int bio = 8;
-  int qui = 7;
-  int resultado = 0;
-  resultado = (mate + bio + qui) / 3;
+    int mate = 5;
+    int bio = 8;
+    int qui = 7;
+    int resultado = 0;
+    resultado = (mate + bio + qui) / 3;
 
-  if (resultado >= 6){
-  System.out.println ("El alumno aprobo " + resultado);
- } else {
-  System.out.println ("El alumno reporobo "+ resultado);
-  }
+    if (resultado >= 6){
+      System.out.println ("El alumno aprobo " + resultado);} 
+    else {
+      System.out.println ("El alumno reporobo "+ resultado);
+    }
  }
 }

@@ -18,7 +18,8 @@ public static void main(String[]args){
   } else if(operacion == 4){
  resultado = num_uno / num_dos;
  System.out.println ("El resultado es " + resultado);
-  } else
+  } else {
   System.out.println("la opcion no existe");
 }
  }
+   }

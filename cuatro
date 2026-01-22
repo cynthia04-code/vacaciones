@@ -1,11 +1,11 @@
 public class cuatro {
-public static void main(String args[]) {
-  int uno = 4;
-  int dos = 1;
-  int resultado = 0;
+  public static void main(String args[]) {
+      int uno = 4;
+      int dos = 1;
+      int resultado = 0;
 
-resultado = uno + dos;
-System.out.println("El valor de tu suma es " + resultado);
+      resultado = uno + dos;
+    System.out.println("El valor de tu suma es " + resultado);
  
 }
  }

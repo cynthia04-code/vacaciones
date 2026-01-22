@@ -1,14 +1,14 @@
 public class Cinco{
-public static void main (String args[]){
-  int uno = 4;
-  int dos = 4;
-  int resultado = 0;
+  public static void main (String args[]){
+      int uno = 4;
+      int dos = 4;
+      int resultado = 0;
   
-  resultado = uno + dos / 2;
-  System.out.println("El resultado incorrecto es " + resultado);
+      resultado = uno + dos / 2;
+    System.out.println("El resultado incorrecto es " + resultado);
 
-  resultado = (uno + dos) / 2;
-  System.out.println("El resultado correcto es " + resultado);
+      resultado = (uno + dos) / 2;
+    System.out.println("El resultado correcto es " + resultado);
 
  }
 }

@@ -8,11 +8,11 @@ import java.util.Scanner;
 
      System.out.println("Bienvenido al programa de cyn");
        System.out.println("¿cual es tu nombre?");
-       nombre = nextLine;
+       nombre = entrada.nextLine();
        System.out.println("¿cual es tu clave");
-       clave = nextInt;
+       clave = entrada.nextInt();
        System.out.println("¿que antiguedad tienes");
-       antiguedad = nextInt;
+       antiguedad =entrada.nextInt();
        
        if (clave == 1) { 
          if (antiguedad == 1){
@@ -40,3 +40,4 @@ import java.util.Scanner;
        
    }
  } 
+}
